@@ -1,3 +1,77 @@
+
+
+.container{
+  display: grid;
+  grid-template-areas:
+     "header nav"
+     "main main"
+     "caption caption"
+     "highlights highlights"
+     "footer footer"
+
+}
+
+.header-css{
+  grid-area: header;
+  padding-left: 30px;
+  padding-top: 20px;
+  /* background-c olor: aquamarine; */
+
+}
+
+.nav-css{
+  padding-top: 20px;
+  /* margin-top: 10px; */
+  grid-area: nav;
+  gap: 10px;
+  padding-bottom: 10px;
+  columns: 6;
+  /* background-color:aquamarine; */
+} 
+.main-css{
+  grid-area: main;
+  text-align: center;
+  padding-left: auto;
+  padding-top: auto;
+  padding-bottom: 10px;
+  background-color: #495e57;
+  color: white;
+}
+
+.highlights-css{
+    /* vertical-align: top; */
+    display: flex;
+    grid-area: highlights;
+    text-align: center;
+    width: 120px;
+    gap: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.caption2{
+  display: inline-block;
+}
+
+.footer-css{
+  display: flex;
+  gap: 160px;
+  grid-area: footer;
+  text-align: left;
+  padding-left: 80px;
+  padding-top: 76px;
+  background-color: plum;
+}
+
+.button{
+  display: grid;
+  color: black;
+  border-radius: 20px;
+  background-color: #f4ce14;
+  padding: 20px;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +110,4 @@
     transform: rotate(360deg);
   }
 }
+
