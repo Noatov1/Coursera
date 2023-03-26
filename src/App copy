@@ -9,7 +9,7 @@ function App() {
        <meta name="og:title" content="Little Lemon" />
        <meta name="og:image" content="http://jordanbr.pythonanywhere.com/static/restaurant/img/logo.png" />
        <meta name="og:description" content="Little Lemon is a restaurant that spsecializes in the Mediterranean cousine"/>
-    </head>> 
+    </head>>
     <>
       <header>
         {/* logo */}

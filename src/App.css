@@ -19,6 +19,16 @@
 
 }
 
+.Routes{
+  border-radius: 10px;
+  margin: 100px;
+  grid-template-areas:
+   "route route";
+  width: max-content;
+  text-align: center;
+  background-color: #61dafb;
+}
+
 .nav-css{
   padding-top: 20px;
   /* margin-top: 10px; */
@@ -27,7 +37,7 @@
   padding-bottom: 10px;
   columns: 6;
   /* background-color:aquamarine; */
-} 
+}
 .main-css{
   grid-area: main;
   text-align: center;
