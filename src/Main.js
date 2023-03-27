@@ -5,7 +5,7 @@ import HomePage from './HomePage';
 import OnlineMenu from './OnlineMenu.js';
 export default function Main() {
     return (
-        <div className="container main-css">
+        <div className="main-css">
             <h1>Little Lemon</h1>
             <h3>Chicago</h3>
             <p>We are a family owned Mediterranean restaurant,<br></br> focused on traditional recipes<br></br> served with a modern twist.</p>

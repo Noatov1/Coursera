@@ -1,4 +1,28 @@
 
+.form{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  max-width: 400px;
+   gap: 20px
+}
+
+.form2{
+  text-align: center;
+  max-width: 250px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+  border-radius: 10px;
+  background-color: #61dafb;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  grid-area: main;
+}
+
 
 .container{
   display: grid;
@@ -22,8 +46,8 @@
 .Routes{
   border-radius: 10px;
   margin: 100px;
-  grid-template-areas:
-   "route route";
+  /* grid-template-areas:
+   "route route"; */
   width: max-content;
   text-align: center;
   background-color: #61dafb;
@@ -40,7 +64,7 @@
 }
 .main-css{
   grid-area: main;
-  text-align: center;
+  /* text-align: center; */
   padding-left: auto;
   padding-top: auto;
   padding-bottom: 10px;
